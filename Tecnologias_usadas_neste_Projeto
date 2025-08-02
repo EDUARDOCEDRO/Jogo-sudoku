@@ -1,0 +1,81 @@
+Tecnologias Principais:
+Java SE (Standard Edition)
+
+Linguagem base do projeto (versão 8 ou superior)
+
+Bibliotecas padrão do Java
+
+Swing
+
+Framework gráfico para a interface do usuário
+
+Componentes usados:
+
+JFrame (janela principal)
+
+JPanel (containers)
+
+JTextField (células do Sudoku)
+
+JButton (botões)
+
+JOptionPane (diálogos de mensagem)
+
+Bibliotecas e APIs:
+Java AWT (Abstract Window Toolkit)
+
+BorderLayout e GridLayout para organização dos componentes
+
+Color para manipulação de cores
+
+Font para estilização de texto
+
+Event para tratamento de eventos (cliques, teclas)
+
+Java Util
+
+Random para geração de números aleatórios
+
+Estruturas de dados básicas (arrays)
+
+Padrões e Conceitos:
+MVC (Model-View-Controller)
+
+Arquitetura separada em:
+
+Model (lógica/regras do jogo)
+
+View (interface)
+
+Controller (intermediário)
+
+Programação Orientada a Objetos
+
+Encapsulamento
+
+Separação de responsabilidades
+
+Métodos bem definidos
+
+Tratamento de Eventos
+
+ActionListener para botões
+
+KeyAdapter para entrada de teclado
+
+Recursos Específicos:
+Geração de Tabuleiros
+
+Algoritmo de backtracking para criar soluções válidas
+
+Lógica de remoção de números para criar puzzles jogáveis
+
+Validação
+
+Verificação das regras do Sudoku:
+
+Linhas
+
+Colunas
+
+Quadrantes 3x3
